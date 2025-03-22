@@ -2,6 +2,7 @@
   "expo": {
     "name": "sens",
     "slug": "sens",
+    "package": "com.jsenono.senonoai",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -14,8 +15,10 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#ffffff",
+        "package": "com.jsenono.senonoai"
+      },
+      "package": "com.jsenono.senonoai"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +39,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a02927c4-b6ff-42ec-9ad4-aa0cd428929b"
+      }
     }
   }
 }
